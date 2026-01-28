@@ -6,7 +6,7 @@ Earnings aware Monte Carlo RM for Palantir Technologies that compares baseline a
 
 Overview
 
-I created a piece that analyzes Palantir Technologies’ short horizon downside risk using Monte Carlo (MC) simulation. A baseline risk model is compared against an earnings aware extension that explicitly incorporates jump risk from the February 2, 2026 earnings announcement.
+This project looks at Palantir Technologies’ short horizon downside risk using Monte Carlo (MC) simulation. A baseline risk model is compared against an earnings aware extension that explicitly incorporates jump risk from the February 2, 2026 earnings announcement.
 
 The goal is to quantify how much tail risk is underestimated when discrete earnings events are ignored.
 
@@ -27,7 +27,6 @@ Findings
 Tools
 
 * Python
-* OpenAI
 * NumPy
 * pandas
 * yfinance
